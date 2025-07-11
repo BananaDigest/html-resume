@@ -1,0 +1,20 @@
+
+.inline-img{
+    display: inline-block;
+    border-radius: 2%;
+    margin: 0;
+    padding:0;
+}
+
+.block-img{
+    display: block;
+    border-radius: 2%;
+}
+
+.favourite-styled{
+    background-color: rgb(220, 251, 251);
+    border: 2px solid rgb(168, 197, 197);
+    height: 30px;
+    width: 200px;
+    margin: 5pt;
+}
