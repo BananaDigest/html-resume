@@ -1,3 +1,6 @@
+.profile-picture{
+    height: 200px;
+}
 
 .inline-img{
     display: inline-block;
@@ -6,15 +9,26 @@
     padding:0;
 }
 
+.inline-course{
+    display: inline-block;
+    border-radius: 2%;
+    height: 15em;
+    width: 30em;
+}
+
 .block-img{
     display: block;
     border-radius: 2%;
 }
 
 .favourite-styled{
-    background-color: rgb(220, 251, 251);
+    background-color: rgb(241, 251, 251);
     border: 2px solid rgb(168, 197, 197);
     height: 30px;
     width: 230px;
     margin: 5pt;
+}
+
+img{
+    height: 400px;
 }
