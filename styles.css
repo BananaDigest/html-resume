@@ -1,14 +1,14 @@
 .profile-picture{
-    height: 100px;
+    height: 70px;
     border-radius: 50%;
 }
 
 #name{
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    padding-top: 10px;
-    padding-bottom: 15px;
+    width: 90%;
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
 
 .body{
@@ -22,22 +22,44 @@
     width: 595px;
 }
 
-body{
+.index-body{
     display:flex;
     justify-content: center;
 }
 
 .main-part{
     display: grid;
-    grid-template-columns: 300px 200px;
+    grid-template-columns: 2fr 1fr;
     gap: 4%
 }
 
-.first-part-margin{
+/* .first-part-margin{
     margin-top: 10px;
     margin-bottom: 20px;
+} */
+h2{
+    font-size: 23px;
+}
+i{
+    font-weight: 700;
 }
 
-@media print {
-    
+h1{
+    font-size: 28px;
+}
+
+.status{
+    font-size: 22px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+@media print{
+    footer{
+        font-size: 0;
+    }
+}
+
+img{
+    height: 400px;
 }
