@@ -18,7 +18,6 @@
     flex-direction: column;
     margin-left: 3%;
     margin-right: 2%;
-    /* border: solid black 2px; */
     width: 595px;
 }
 
@@ -33,10 +32,6 @@
     gap: 4%
 }
 
-/* .first-part-margin{
-    margin-top: 10px;
-    margin-bottom: 20px;
-} */
 h2{
     font-size: 23px;
 }
@@ -54,12 +49,44 @@ h1{
     font-style: italic;
 }
 
+img{
+    height: 400px;
+}
+
 @media print{
     footer{
-        font-size: 0;
+        display:none;
     }
 }
 
-img{
-    height: 400px;
+@media (max-width:645px){
+    .main-part{
+        display:flex;
+        flex-direction: column;
+    }
+
+    div.second{
+        display:flex;
+        flex-direction: column;
+    }
+
+    #contact{
+        order:2;
+    }
+
+    #skills{
+        order:1;
+    }
+
+    #hobbies{
+        order:3;
+    }
+
+    #other{
+        order: 4;
+    }
+
+    .profile-picture{
+        align-self: center;
+    }
 }
